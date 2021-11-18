@@ -1,0 +1,75 @@
+/* 头部 */
+.titleName{
+    /* padding-left: 1.25rem; */
+    color: #f8f5f8;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+header{
+    background: #212529;
+    line-height: 3rem;
+}
+.sonTitle{
+    color: #9b9d9e;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.sonTitle div:hover{
+    cursor:pointer;
+    color: #f1ffff;
+}
+.sonTitle div {
+    float: left;
+    padding-left: 1.25rem;
+}
+.headlineBox{
+    font-size: 2.125rem;
+    font-weight: bold;
+    color: #f8f5f8;
+}
+.headline{
+    position:relative;
+    padding: 1.875rem 0 2.5rem 3.125rem;
+}
+.headline::before{
+    position: absolute;
+    left: 1.5rem;
+    top: 1.875rem;
+    content:'';
+    height: 3.125rem;
+    width: .875rem;
+    background: red;
+}
+/* 内容 */
+.post_body{
+    color: #212529;
+    line-height: 2.5rem;
+    font-size: 1.375rem;
+}
+.post_body>p{
+    padding: 0 0 1.875rem 0;
+}
+.post_body>p>img{
+    width: 100%;
+}
+/* 脚部 */
+footer{
+    background: #f8f9fa;
+    font-size: 1.25rem;
+    color: #83757d;
+}
+.footerText{
+    padding: 2rem 0 2rem 0;
+}
+.textBox{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.code{
+    padding-top: 1.25rem;
+    border-top:1px solid #dee2e6;
+}
+.code>p{
+    padding-left: 20px;
+}

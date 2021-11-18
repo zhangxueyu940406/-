@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻页</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/layui/dist/css/layui.css">
+    <style>
+        @import url(./css/particular.css);
+    </style>
+    <style>
+        @import url(./css/style.css);
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-9 col-sm-8 col-6">
+                <div class="titleName">企业站</div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6 sonTitle">
+                <div id="indexUrl">
+                    <i class="bi bi-house"></i>
+                    <span>首页</span>
+                </div>
+                <div style="color:#f1ffff">
+                    <i class="bi bi-stickies-fill"></i>
+                    <span>新闻</span>
+                </div>
+                <div id="aboutUrl">
+                    <i class="bi bi-question-circle"></i>
+                    <span>关于我们</span>
+                </div>
+            </div>
+        </div>
+        <!-- 标题 -->
+        <div class="headlineBox">
+            <p id="headlineTite" class="headline"></p>
+        </div>
+    </header>
+    <!-- 列表数据页面 -->
+    <main class="row">
+        <div class="col-md-1 col-sm-1 col-1"></div>
+        <div id="main" class="col-md-10 col-sm-10 col-10">
+
+        </div>
+        <div class="col-md-1 col-sm-1 col-1"></div>
+    </main>
+    <footer>
+        <div class="footerText row">
+            <div class="col-md-4 col-sm-2"></div>
+            <div class="col-md-4 col-sm-10 col-12">
+                <div class="row">
+                    <div class="col-md-4 col-sm-3 col-5">
+                        <div class="textBox">
+                            <i class="bi bi-geo-alt"></i>
+                            <span class="site">福州市仓山区</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-7">
+                        <div class="textBox">
+                            <i class="bi bi-envelope"></i>
+                            <span class="mailbox">Robin@hotmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-12 textTelephone">
+                        <div class="textBox">
+                            <i class="bi bi-telephone"></i>
+                            <span>000-000-000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-2"></div>
+        </div>
+        <div class="textBox code">
+            <img src="./images/qr_code.jpg" alt="">
+            <p>© 2021 Company, lnc</p>
+        </div>
+    </footer>
+</body>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./node_modules/layui/dist/layui.js"></script>
+<script src="./node_modules/jquery-lazyload/jquery.lazyload.js"></script>
+<script src="./js/particular.js"></script>
+</html>

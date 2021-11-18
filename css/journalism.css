@@ -1,0 +1,110 @@
+.titleName{
+    /* padding-left: 1.25rem; */
+    color: #f8f5f8;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+header{
+    background: #212529;
+    line-height: 3rem;
+}
+.sonTitle{
+    color: #9b9d9e;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.sonTitle div:hover{
+    cursor:pointer;
+    color: #f1ffff;
+}
+.sonTitle div {
+    float: left;
+    padding-left: 1.25rem;
+}
+.tableBox{
+    border: 1px solid #dfdfdf;
+    border-radius:4px;
+    overflow: hidden;
+}
+/* 手机 */
+.tableImgPhone{
+    width: 100%;
+    height: 200px;
+}
+.tableImgPhone>img{
+    width: 100%;
+    height: 100%;
+}
+.tableTextPhone{
+    width: 100%;
+}
+.tableTextBoxPhone{
+    padding: 25px 20px 20px 20px;
+}
+/* PC 平板 */
+.tableImg{
+    float: left;
+    width: 30%;
+    height: 165px;
+}
+.tableImg>img{
+    width: 100%;
+    height: 100%;
+}
+.tableText{
+    float: left;
+    width: 70%;
+}
+.tableTextBox{
+    padding: 25px 45px 0px 20px;
+}
+.tableBoxText{
+    font-size: 1.625rem;
+    font-weight: 500;
+    color: #212529;
+    margin-bottom: 30px;
+}
+.tableBoxLabel{
+    font-size: 1.125rem;
+    color: #6c757d;
+}
+.tableTop{
+    margin-top: 25px;
+}
+.paging{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 15px 0 15px 0;
+}
+
+footer{
+    background: #f8f9fa;
+    font-size: 1.25rem;
+    color: #83757d;
+}
+.footerText{
+    padding: 2rem 0 2rem 0;
+}
+.textBox{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.code{
+    padding-top: 1.25rem;
+    border-top:1px solid #dee2e6;
+}
+.code>p{
+    padding-left: 20px;
+}
+@media screen and (max-width: 1535px) {
+    .journalism{
+        min-height: 500px;
+    }
+}
+@media screen and (max-width: 755px) {
+    .journalism{
+        min-height: 165px;
+    }
+}

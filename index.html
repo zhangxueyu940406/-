@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业站</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        @import url(./css/index.css);
+    </style>
+    <style>
+        @import url(./css/style.css);
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-9 col-sm-8 col-6">
+                <div class="titleName">企业站</div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6 sonTitle">
+                <div style="color:#f1ffff">
+                    <i class="bi bi-house"></i>
+                    <span>首页</span>
+                </div>
+                <div id="journalismUrl">
+                    <i class="bi bi-stickies-fill"></i>
+                    <span>新闻</span>
+                </div>
+                <div id="aboutUrl">
+                    <i class="bi bi-question-circle"></i>
+                    <span>关于我们</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="./images/banner_01_1080p.jpg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/banner_02_1080p.jpg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/banner_03_1080p.jpg" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- 中横线 -->
+        <div class="d-none d-sm-block">
+            <div class="row line">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="lineConter">
+                        <div class="leftLine"></div>
+                        <div class="headline">
+                            服务范围
+                        </div>
+                        <div class="rightLine"></div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <div class="d-block d-sm-none">
+            <div class="row line">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="lineConter">
+                        <div class="leftLineSm"></div>
+                        <div class="headline">
+                            服务范围
+                        </div>
+                        <div class="rightLineSm"></div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+
+        <!-- 三个圆 -->
+        <div class="row">
+            <div class="col-md-1 col-sm-1"></div>
+            <div class="col-md-10 col-sm-10 col-12">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-6">
+                        <div class="imgCircle">
+                            <img src="./images/section_01_360p.jpg" alt="...">
+                        </div>
+                        <div class="imGtext">拯救地球</div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-6">
+                        <div class="imgCircle">
+                            <img src="./images/section_02_360p.jpg" alt="...">
+                        </div>
+                        <div class="imGtext">英雄合照</div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-6">
+                        <div class="imgCircle">
+                            <img src="./images/section_03_360p.jpg" alt="...">
+                        </div>
+                        <div class="imGtext">寻找原石</div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-6">
+                        <div class="imgCircle">
+                            <img src="./images/section_04_360p.jpg" alt="...">
+                        </div>
+                        <div class="imGtext">宇宙旅行</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-1"></div>
+        </div>
+        <!-- 中横线 -->
+        <div class="d-none d-sm-block">
+            <div class="row line">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="lineConter">
+                        <div class="leftLine"></div>
+                        <div class="headline">
+                            团队介绍
+                        </div>
+                        <div class="rightLine"></div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <div class="d-block d-sm-none">
+            <div class="row line">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="lineConter">
+                        <div class="leftLineSm"></div>
+                        <div class="headline">
+                            团队介绍
+                        </div>
+                        <div class="rightLineSm"></div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <!-- 主体内容 -->
+        <div class="row">
+            <div class="col-md-1 col-sm-1 col-1"></div>
+            <div class="col-md-10 col-sm-10 col-10">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-12">
+                        <div>
+                            <span class="nameIndexWect">汪达 </span>
+                            <span class="nameIndex"> 马克希莫夫</span>
+                        </div>
+                        <p class="nameText">快银的双胞胎姐姐（比快银早出生30秒, 此为漫画原作设定），原始设定是万磁王的女儿，
+                            钢铁人的情妇，和美国队长也有一段地下情，于2014年底的漫画连载中修改设定，绯红女巫跟快银的中级进化（High Evolutionary）
+                            基因实验产生的基因改造人，并非变种人，并且有一位之前未曾登场的双胞胎姐妹Luminous
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-12">
+                        <div class="imgSquare">
+                            <img src="./images/article_1_1080p.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-1 col-1"></div>
+        </div>
+        <!-- 中横线 -->
+        <div class="row line">
+            <div class="col-md-1 col-sm-1 col-1"></div>
+            <div class="col-md-10 col-sm-10 col-10 divisionLine"></div>
+            <div class="col-md-1 col-sm-1 col-1"></div>
+        </div>
+        <!-- 主体内容 -->
+        <div class="d-none d-sm-block">
+            <div class="row">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-12">
+                            <div class="imgSquare">
+                                <img src="./images/article_2_1080p.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-8 col-12">
+                            <div>
+                                <span class="nameIndexWect">黑寡妇 </span>
+                                <span class="nameIndex"> 娜塔莉亚</span>
+                            </div>
+                            <p class="nameText">快银的双胞胎姐姐（比快银早出生30秒, 此为漫画原作设定），原始设定是万磁王的女儿，
+                                钢铁人的情妇，和美国队长也有一段地下情，于2014年底的漫画连载中修改设定，绯红女巫跟快银的中级进化（High Evolutionary）
+                                基因实验产生的基因改造人，并非变种人，并且有一位之前未曾登场的双胞胎姐妹Luminous
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <div class="d-block d-sm-none">
+            <div class="row">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-12">
+                            <div>
+                                <span class="nameIndexWect">黑寡妇 </span>
+                                <span class="nameIndex"> 娜塔莉亚</span>
+                            </div>
+                            <p class="nameText">快银的双胞胎姐姐（比快银早出生30秒, 此为漫画原作设定），原始设定是万磁王的女儿，
+                                钢铁人的情妇，和美国队长也有一段地下情，于2014年底的漫画连载中修改设定，绯红女巫跟快银的中级进化（High Evolutionary）
+                                基因实验产生的基因改造人，并非变种人，并且有一位之前未曾登场的双胞胎姐妹Luminous
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                            <div class="imgSquare">
+                                <img src="./images/article_2_1080p.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <!-- 中横线 -->
+        <div class="row line">
+            <div class="col-md-1 col-sm-1 col-1"></div>
+            <div class="col-md-10 col-sm-10 col-10 divisionLine"></div>
+            <div class="col-md-1 col-sm-1 col-1"></div>
+        </div>
+        <!-- 主体内容 -->
+        <div class="row">
+            <div class="col-md-1 col-sm-1 col-1"></div>
+            <div class="col-md-10 col-sm-10 col-10">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-12">
+                        <div>
+                            <span class="nameIndexWect">猎鹰 </span>
+                            <span class="nameIndex"> 山姆威尔森</span>
+                        </div>
+                        <p class="nameText">快银的双胞胎姐姐（比快银早出生30秒, 此为漫画原作设定），原始设定是万磁王的女儿，
+                            钢铁人的情妇，和美国队长也有一段地下情，于2014年底的漫画连载中修改设定，绯红女巫跟快银的中级进化（High Evolutionary）
+                            基因实验产生的基因改造人，并非变种人，并且有一位之前未曾登场的双胞胎姐妹Luminous
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-12">
+                        <div class="imgSquare">
+                            <img src="./images/article_3_1080p.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-1 col-1"></div>
+        </div>
+        <!-- 中横线 -->
+        <div class="row line">
+            <div class="col-md-1 col-sm-1 col-1"></div>
+            <div class="col-md-10 col-sm-10 col-10 divisionLine"></div>
+            <div class="col-md-1 col-sm-1 col-1"></div>
+        </div>
+        <!-- 主体内容 -->
+        <div class="d-none d-sm-block">
+            <div class="row">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-12">
+                            <div class="imgSquare">
+                                <img src="./images/article_4_1080p.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-8 col-12">
+                            <div>
+                                <span class="nameIndexWect">洛基 </span>
+                                <span class="nameIndex"> 北欧神话</span>
+                            </div>
+                            <p class="nameText">快银的双胞胎姐姐（比快银早出生30秒, 此为漫画原作设定），原始设定是万磁王的女儿，
+                                钢铁人的情妇，和美国队长也有一段地下情，于2014年底的漫画连载中修改设定，绯红女巫跟快银的中级进化（High Evolutionary）
+                                基因实验产生的基因改造人，并非变种人，并且有一位之前未曾登场的双胞胎姐妹Luminous
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <div class="d-block d-sm-none">
+            <div class="row">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="row">
+                        <div>
+                            <span class="nameIndexWect">洛基 </span>
+                            <span class="nameIndex"> 北欧神话</span>
+                        </div>
+                        <p class="nameText">快银的双胞胎姐姐（比快银早出生30秒, 此为漫画原作设定），原始设定是万磁王的女儿，
+                            钢铁人的情妇，和美国队长也有一段地下情，于2014年底的漫画连载中修改设定，绯红女巫跟快银的中级进化（High Evolutionary）
+                            基因实验产生的基因改造人，并非变种人，并且有一位之前未曾登场的双胞胎姐妹Luminous
+                        </p>
+                        <div class="col-md-4 col-sm-4 col-12">
+                            <div class="imgSquare">
+                                <img src="./images/article_4_1080p.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <!-- 中横线 -->
+        <div class="d-none d-sm-block">
+            <div class="row line">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="lineConter">
+                        <div class="leftLine"></div>
+                        <div class="headline">
+                            新闻动态
+                        </div>
+                        <div class="rightLine"></div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <div class="d-block d-sm-none">
+            <div class="row line">
+                <div class="col-md-1 col-sm-1 col-1"></div>
+                <div class="col-md-10 col-sm-10 col-10">
+                    <div class="lineConter">
+                        <div class="leftLineSm"></div>
+                        <div class="headline">
+                            新闻动态
+                        </div>
+                        <div class="rightLineSm"></div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-1"></div>
+            </div>
+        </div>
+        <!-- 新闻动态 -->
+        <div class="row">
+            <div class="col-md-1 col-sm-1 col-1"></div>
+            <div class="col-md-10 col-sm-10 col-10">
+                <div class="row" id="journalismId"></div>
+            </div>
+            <div class="col-md-1 col-sm-1 col-1"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerText row">
+            <div class="col-md-4 col-sm-2"></div>
+            <div class="col-md-4 col-sm-10 col-12">
+                <div class="row">
+                    <div class="col-md-4 col-sm-3 col-5">
+                        <div class="textBox">
+                            <i class="bi bi-geo-alt"></i>
+                            <span class="site">福州市仓山区</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-7">
+                        <div class="textBox">
+                            <i class="bi bi-envelope"></i>
+                            <span class="mailbox">Robin@hotmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-12 textTelephone">
+                        <div class="textBox">
+                            <i class="bi bi-telephone"></i>
+                            <span>000-000-000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-2"></div>
+        </div>
+        <div class="textBox code">
+            <img src="./images/qr_code.jpg" alt="">
+            <p>© 2021 Company, lnc</p>
+        </div>
+    </footer>
+</body>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/js/popover.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./js/index.js"></script>
+
+</html>

@@ -1,0 +1,65 @@
+/* 头部 */
+.titleName{
+    /* padding-left: 1.25rem; */
+    color: #f8f5f8;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+header{
+    background: #212529;
+    line-height: 3rem;
+}
+.sonTitle{
+    color: #9b9d9e;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.sonTitle div:hover{
+    cursor:pointer;
+    color: #f1ffff;
+}
+.sonTitle div {
+    float: left;
+    padding-left: 1.25rem;
+}
+/* 内容 */
+#container{
+    height: 23.125rem;
+    width: 94%;
+    margin: 0 3% 0 3%;
+    margin-top: 1.5625rem;
+}
+main{
+    font-size: 1.375rem;
+    color: #212529;
+    font-weight: 500;
+}
+.aboutText{
+    line-height: 2.125rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+.site,.mail,.phone{
+    line-height: 50px;
+}
+/* 脚部 */
+footer{
+    background: #f8f9fa;
+    font-size: 1.25rem;
+    color: #83757d;
+}
+.footerText{
+    padding: 2rem 0 2rem 0;
+}
+.textBox{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.code{
+    padding-top: 1.25rem;
+    border-top:1px solid #dee2e6;
+}
+.code>p{
+    padding-left: 20px;
+}

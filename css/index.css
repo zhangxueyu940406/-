@@ -1,0 +1,138 @@
+.titleName{
+    /* padding-left: 1.25rem; */
+    color: #f8f5f8;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+header{
+    background: #212529;
+    line-height: 3rem;
+}
+.sonTitle{
+    color: #9b9d9e;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.sonTitle div:hover{
+    cursor:pointer;
+    color: #f1ffff;
+}
+.sonTitle div {
+    float: left;
+    padding-left: 1.25rem;
+}
+.carousel-inner img {
+    width: 100%;
+    /* max-height:51.875rem; */
+}
+.line{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.lineConter{
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.headline{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.leftLine, .rightLine{
+    width: 45%;
+    border-bottom:1px solid #d3d3d3;
+    height: 1px;
+}
+.leftLineSm, .rightLineSm{
+    width: 35%;
+    border-bottom:1px solid #d3d3d3;
+    height: 1px;
+}
+.divisionLine{
+    border-bottom:1px solid #d3d3d3;
+    height: 1px;
+}
+.imgCircle{
+    margin: 0 auto;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 6.25rem;
+    overflow: hidden;
+}
+.imgCircle >img{
+    width: 100%;
+    height: 100%;
+}
+.imgSquare > img{
+    width: 100%;
+    height: 100%;
+}
+.imGtext{
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+.nameIndex{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #6c757d;
+}
+.nameIndexWect{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.nameText{
+    font-size: 1.625rem;
+    color: #212529;
+    margin-bottom: 1.25rem;
+}
+.journalism{
+    border: .0625rem solid #dfdfdf;
+    border-radius:5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    min-height: 300px;
+}
+.journalismImg{
+    width: 100%;
+    height: 15rem;
+}
+.journalismImg>img{
+    width: 100%;
+    height: 100%;
+}
+.journalismText{
+    font-size: 1.25rem;
+    padding: 2.5rem;
+}
+footer{
+    background: #f8f9fa;
+    font-size: 1.25rem;
+    color: #83757d;
+}
+.footerText{
+    padding: 2rem 0 2rem 0;
+}
+.textBox{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.code{
+    padding-top: 1.25rem;
+    border-top:1px solid #dee2e6;
+}
+.code>p{
+    padding-left: 20px;
+}
+@media screen and (max-width: 1535px) {
+    .journalism{
+        min-height: 500px;
+    }
+}
+@media screen and (max-width: 755px) {
+    .journalism{
+        min-height: 165px;
+    }
+}
